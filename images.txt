@@ -1,6 +1,17 @@
+# 基础系统镜像
 nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+nginx:1.25
+alpine
+alpine:3.20
+debian:bookworm-slim
+ubuntu:22.04
+centos:stream9
+busybox
+
+# 数据库基础镜像
+mysql:8.0
+mysql:5.7
+redis:7.2
+redis:6.2
+mongo:6.0
+postgres:15
