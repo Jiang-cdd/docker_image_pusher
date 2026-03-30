@@ -1,3 +1,65 @@
 nginx
 redis:7.2
 alpine
+# OpenWrt 系统镜像（支持多架构）
+--platform=linux/amd64 sulinggg/openwrt:latest
+--platform=linux/arm64 sulinggg/openwrt:latest
+immortalwrt/rootfs:x86-64-openwrt-23.05.2
+
+# 网盘/文件服务
+xhofe/alist:latest
+--platform=linux/arm64 xiaoyaliu/alist
+cloudreve/cloudreve:latest
+minio/minio:latest
+
+# 下载工具
+qbittorrent/qbittorrent-nox:latest
+transmission/transmission:latest
+jellyfin/jellyfin:latest
+emby/embyserver:latest
+plexinc/pms-docker:latest
+
+# 网络工具
+nginxproxy/acme-companion:latest
+portainer/portainer-ce:latest
+portainer/agent:latest
+# K8s 核心组件
+k8s.gcr.io/kube-apiserver:v1.28.0
+k8s.gcr.io/kube-controller-manager:v1.28.0
+k8s.gcr.io/kube-scheduler:v1.28.0
+k8s.gcr.io/kube-proxy:v1.28.0
+k8s.gcr.io/pause:3.9
+k8s.gcr.io/etcd:3.5.10-0
+k8s.gcr.io/coredns/coredns:v1.10.1
+
+# 监控组件
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+quay.io/prometheus/node-exporter:v1.8.2
+quay.io/prometheus/prometheus:v2.49.1
+quay.io/prometheus/alertmanager:v0.27.0
+grafana/grafana:latest
+
+# 存储组件
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0# 中间件
+nacos/nacos-server:v2.2.3
+rabbitmq:3.13-management
+kafka:3.6.1
+zookeeper:3.9.1
+elasticsearch:8.13.0
+logstash:8.13.0
+kibana:8.13.0
+
+# CI/CD
+jenkins/jenkins:lts
+gitlab/gitlab-ce:latest
+sonarqube:latest
+maven:3.9.6
+node:20.11.0
+python:3.12.2
+golang:1.22.1
+
+# 其他工具
+openresty/openresty:latest
+tomcat:9.0.87
+php:8.3-apache
