@@ -13,3 +13,4 @@ portainer/agent:latest
 
 # 监控
 grafana/grafana:latest
+alpine:3.19.8
