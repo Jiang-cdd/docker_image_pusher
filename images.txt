@@ -1,16 +1,9 @@
-nginx
-redis:7.2
-alpine
+nginx:1.25.4-alpine
 
-# 网盘/文件服务
-xhofe/alist:latest
-cloudreve/cloudreve:latest
-minio/minio:latest
+redis:7.2.4-alpine
 
-# 网络工具
-portainer/portainer-ce:latest
-portainer/agent:latest
+alpine:3.19.1
 
-# 监控
-grafana/grafana:latest
-alpine:3.19.8
+busybox:1.36.1
+
+mariadb:11.3.2-rc-alpine
