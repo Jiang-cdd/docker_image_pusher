@@ -16,3 +16,4 @@ grafana/grafana:10.3.3
 prom/node-exporter:v1.7.0
 rancher/mirrored-pause:3.6
 rancher/mirrored-coredns-coredns:1.14.2
+rancher/mirrored-coredns-coredns:1.14.2
