@@ -15,4 +15,5 @@ prom/prometheus:v2.50.1
 grafana/grafana:10.3.3
 prom/node-exporter:v1.7.0
 rancher/mirrored-pause:3.6
+coredns/coredns:1.9.4
 mariadb:10.11
