@@ -18,3 +18,4 @@ rancher/mirrored-pause:3.6
 coredns/coredns:1.9.4
 mariadb:10.11
 redis:latest
+docker.io/rancher/mirrored-coredns-coredns:1.9.4
